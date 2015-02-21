@@ -60,9 +60,6 @@ for(subject in unique(molten$subject)){
 }
 
 
-## write 
-## 1) complete dataset, and 2) Avg Std dataset 
-## to ./data folder
+## write final tidy dataset to ./data folder
 if(!file.exists('./data')){ dir.create('./data') }
-write.table(combinedDataComplete, file='./data/combinedAvgStdData.txt', row.names=FALSE)
 write.table(finalAverageData, file='./data/tidyAvgData.txt', row.names=FALSE)
