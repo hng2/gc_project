@@ -8,11 +8,11 @@ This repository contains the following files:
 
 README.md:
 ==========
-It describes the variables, the data, and transformations performed to clean up the data and to create the combined dataset (train & test) and the tidy dataset.
+It describes the data files in this Github repository.
 
 CodeBook.md:
 ============
-Describes the variables in the output data files.
+Describes the dataset and variables in the output analysis data file created by run_analysis.R.
 
 run_analysis.R:
 ===============
